@@ -15,6 +15,10 @@ public class Cars {
         return new Cars(names);
     }
 
+    public int size() {
+        return cars.size();
+    }
+
     public void moveForward(NumberGenerator numberGenerator) {
         cars.forEach(car -> {
             int number = numberGenerator.generate();
