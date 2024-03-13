@@ -15,7 +15,11 @@ public class Car {
     }
 
     public void moveForward(int num) {
-        moveCount.report(num);
+        this.moveCount.report(num);
+    }
+
+    public String getName() {
+        return this.name.getName();
     }
 
     public int getMoveCount() {
