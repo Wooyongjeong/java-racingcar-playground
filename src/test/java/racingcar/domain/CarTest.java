@@ -9,10 +9,4 @@ public class CarTest {
     void create() {
         assertDoesNotThrow(() -> new Car("pobi"));
     }
-
-    @Test
-    void move() {
-        Car car = new Car("pobi");
-
-    }
 }
