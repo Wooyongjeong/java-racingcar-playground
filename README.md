@@ -24,3 +24,14 @@ git checkout main // 기본 브랜치가 main인 경우
 git checkout -b 브랜치이름
 ex) git checkout -b apply-feedback
 ```
+
+---
+
+# 기능 구현 목록
+
+- [x] 자동차 이름 예외 처리
+  - [x] 공백이 아닌지
+  - [x] 5글자 이하인지
+- [ ] 자동차 이동
+- [ ] 자동차 이동 거리에 따라 "-" 생성하기
+- [ ] 우승자 찾기
